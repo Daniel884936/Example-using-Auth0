@@ -14,14 +14,23 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##--------------------------------------------------------Auth0--------------------------------------------
+
+- You have to register in Auth0 and create an auth0 angular aplication 
+- In this aplication you have to create a json config with this name: "auth_config.json" path: "AuthApp/"
+
+json body: 
+{
+  "domain":"your current domin from auht0",
+  "clientId": "your current clientId from auht0"
+}
+
+domain and clientId both are from Auth0
+
+- execute `ng serve`
+
+
